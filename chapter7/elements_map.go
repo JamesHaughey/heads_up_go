@@ -11,4 +11,10 @@ func main() {
 
 	fmt.Println(elements["Li"])
 	fmt.Println(elements["H"])
+
+	primes := make(map[int]bool)
+	primes[4] = false
+	primes[7] = true
+	fmt.Println(primes[7])
+	fmt.Println(primes[4])
 }
